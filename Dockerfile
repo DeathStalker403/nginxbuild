@@ -19,7 +19,7 @@ COPY ./index.html /usr/share/nginx/html
 ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 # Expose the port for the web server
-EXPOSE 80
+EXPOSE 8080
 
 # Default command to run NGINX in the foreground
 CMD ["nginx", "-g", "daemon off;"]
