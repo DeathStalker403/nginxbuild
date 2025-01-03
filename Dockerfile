@@ -18,7 +18,6 @@ COPY ./index.html /usr/share/nginx/html
 
 ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-USER nginx:nginx
 # Expose the port for the web server
 EXPOSE 80
 
