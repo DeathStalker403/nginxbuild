@@ -20,7 +20,7 @@ ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 USER nginx:nginx
 # Expose the port for the web server
-EXPOSE 8080
+EXPOSE 80
 
 # Default command to run NGINX in the foreground
 CMD ["nginx", "-g", "daemon off;"]
